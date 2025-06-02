@@ -1,14 +1,16 @@
-import UsersList from "./components/UsersList";
-import Counter from "./components/ComponentUsingRedux";
-import PostsList from "./components/postsList";
+import UsersList from "./users-list/index";
+import Counter from "./counter/index";
+import PostsList from "./posts/index";
+import { Navbar } from "@/layout/Navbar";
 
 
 export default function Home() {
   return (
     <div>
+      <Navbar/>
       <UsersList/>
-      <Counter />
-      <PostsList />
+      {/* <Counter />
+      <PostsList /> */}
     </div>
   );
 }
