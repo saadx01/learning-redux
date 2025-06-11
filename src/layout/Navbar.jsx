@@ -14,6 +14,12 @@ export const Navbar = () => {
             <Link href = "/posts">
                 <li>Posts</li>
             </Link>
+            <Link href = "/home">
+                <li>Home</li>
+            </Link>
+            <Link href = "/home/id">
+                <li>Id</li>
+            </Link>
         </ul>
     </div>
   )
